@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buchstabengenerator.de - Deutsche Promi-News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .profile-box {
+            margin: 20px auto;
+            max-width: 400px;
+        }
+        .profile-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #222;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .bio, .about {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .posts-section {
+            margin-top: 40px;
+        }
+        .post-preview {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .post-preview img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .post-content {
+            flex: 1;
+        }
+        .post-content h3 {
+            margin: 0;
+            font-size: 1.4em;
+        }
+        .post-content p {
+            margin: 10px 0;
+            color: #555;
+        }
+        .read-more {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .read-more:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .post-preview {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .post-preview img {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-box">
+            <img src="https://media.licdn.com/dms/image/v2/D4E35AQESWeuwtBbGTg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1715232210129?e=1745348400&v=beta&t=o9Qb3J903MTwMV6mj296U1R5W5P8BQDDZK722RHU2UU" alt="Gourav Singh Profilbild">
+        </div>
+        <h1>Willkommen bei Buchstabengenerator.de</h1>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>Über Buchstabengenerator.de</h2>
+            <p>Buchstabengenerator.de ist Ihre erste Anlaufstelle für die neuesten und spannendsten deutschen Promi-News. Von exklusiven Updates bis hin zu angesagten Geschichten bringen wir Sie näher an das Leben Ihrer Lieblingsstars. Ob aktuelle Klatschgeschichten, ausführliche Interviews oder Einblicke hinter die Kulissen – unsere Mission ist es, ansprechende Inhalte zu liefern, die Sie informieren und unterhalten.</p>
+        </section>
+
+        <section class="posts-section">
+            <h2>Neueste Promi-News</h2>
+            <!-- Post Preview 1 -->
+            <div class="post-preview">
+                <img src="https://via.placeholder.com/150" alt="Promi-News Bild">
+                <div class="post-content">
+                    <h3>Star XYZ in neuer Rolle enthüllt</h3>
+                    <p>Star XYZ überrascht Fans mit einer neuen Filmrolle. Erfahren Sie, wie sich der Promi auf die Herausforderung vorbereitet und was hinter den Kulissen passiert.</p>
+                    <a href="post1.html" class="read-more">Mehr lesen</a>
+                </div>
+            </div>
+            <!-- Post Preview 2 -->
+            <div class="post-preview">
+                <img src="https://via.placeholder.com/150" alt="Promi-News Bild">
+                <div class="post-content">
+                    <h3>Skandal um Promi ABC</h3>
+                    <p>Ein neuer Skandal erschüttert die Promi-Welt! ABC steht im Mittelpunkt der Schlagzeilen. Lesen Sie alles über die Ereignisse und deren Auswirkungen.</p>
+                    <a href="post2.html" class="read-more">Mehr lesen</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="bio">
+            <h2>Über Gourav Singh</h2>
+            <p>Ich bin Gourav Singh, ein leidenschaftlicher digitaler Unternehmer mit einer bewährten Erfolgsbilanz, Ideen in erfolgreiche und profitable Online-Unternehmen zu verwandeln. Im Laufe der Jahre habe ich zahlreiche Websites in verschiedenen Nischen und Sprachen aufgebaut, skaliert und verkauft – gestützt auf tiefgreifende Expertise in SEO, Content-Strategie und Google AdSense-Monetarisierung.</p>
+            <p>Zu meinen größten Erfolgen zählen Promitrend.de und Partnervermogen.de, zwei deutsche Nischen-Websites, die ich gegründet und nach konstantem Umsatzwachstum verkauft habe. Außerdem habe ich LyricsStory.net erstellt, eine englischsprachige Website, die über 500.000 monatliche organische Besucher erreichte, bevor sie 2023 für 3.200 US-Dollar übernommen wurde.</p>
+            <p>Als AdSense-Spezialist habe ich leistungsstarke Websites entwickelt und optimiert und zahlreichen Personen geholfen, ihre AdSense-Konten genehmigt zu bekommen, um das maximale Monetarisierungspotenzial zu erreichen.</p>
+            <p>Um meine Reichweite auf mehrsprachige Märkte auszuweiten, habe ich EvaluerFortune.com gestartet, eine französischsprachige Website, die später für einen beträchtlichen Betrag auf Flippa.com verkauft wurde. (Schauen Sie gerne auf meinem Profil vorbei: <a href="https://flippa.com/users/3670309" target="_blank">flippa.com/users/3670309</a>). Selbst kleinere Projekte wie GSRBlog.vegas wurden profitabel verkauft – für 201 US-Dollar auf derselben Plattform.</p>
+            <p>Meine unternehmerische Reise wird von Neugier, datengestützten Strategien und einer Leidenschaft für Innovation angetrieben. Ob es darum geht, unerschlossene Nischen zu identifizieren, Inhalte zu skalieren, die ranken, oder konstanten Werbeumsatz zu generieren – ich lebe dafür, digitale Ideen in greifbare Ergebnisse zu verwandeln.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Buchstabengenerator.de. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
